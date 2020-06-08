@@ -71,7 +71,7 @@ Press Upload button
 
 When uploading done, you can see the detail compiling progress. When you see "Leaving...Hard resetting via RTS pin...", you can click Serial Monitor button, and your motion detection log is running!
 
-<img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/Monitor.png" width="600">
+<img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/Monitor.png" width="800">
 
 ## Now enjoy your project~! :)
 
