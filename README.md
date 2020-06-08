@@ -34,12 +34,35 @@ After installation, you can see.
 
 
 Choose the correct board, here my case is:
+
 <img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/choose_board_name.png" width="600">
 
-Go to port, choose USBtoUART. If you don't see this port, go to the following link to install: https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
+Go to port, choose USBtoUART. If you don't see this port, go to the following link to install:
+
+https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
 
 <img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/port.png" width="600">
 
+## Start Programming
+You can copy & paste code from file MotionDetectionESP32.ino
+
+There are some values you can change in the code to meet you specific requirement.
+For the first two lines, you don't have to use GPIO 26 or 27. Use the ones you actually connected. But it only limited to the number pins, like 34, 35, 32... Pins like GND, 3V3 are already be asigned with special functions.
+```
+const int led = 26;
+const int motionSensor = 27;
+```
+
+Line 21, be sure to match the port number with the Serial.begin()
+```
+void setup() {
+  Serial.begin(230400);
+```
+
+For Line 37, timeSecond * 100 means the LED will be ON for 1 second. timeSecond * 1000 means 10 seconds.
+```
+if(startTimer && (now - lastTrigger > (timeSeconds*100))) {
+```
 
 ## Acknowledgement & Reference
 1. Thanks to my boss OYD sponsored my a ESPRESSIF ESP32-WROOM-32D development kit earlier this year. I used this board and a Motion Sensor created this project. 
