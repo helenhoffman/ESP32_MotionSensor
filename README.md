@@ -3,8 +3,17 @@ Detect Movement with ESP32 WROOM 32D + PIR Motion Sensor HC-SR501
 
 ![Demo](https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/Demo.gif)
 
+## Materials
+1. ESP32-DevKitC-32D: https://www.espressif.com/en/products/devkits/esp32-devkitc/overview
+2. PIR Motion Sensor (HC-SR501): https://components101.com/hc-sr501-pir-sensor
+3. 330 Ohm resistor
+4. LED light
+5. Breadboard
+6. Several jumper wires
 
+## Hardware connection
 
+<img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/breadboard.jpg" width="500">
 
 ## Acknowledgement & Reference
 1. Thanks to my boss OYD sponsored my a ESPRESSIF ESP32-WROOM-32D development kit earlier this year. I used this board and a Motion Sensor created this project. 
