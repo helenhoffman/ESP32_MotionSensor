@@ -73,7 +73,7 @@ When uploading done, you can see the detail compiling progress. When you see "Le
 
 <img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/Monitor.png" width="800">
 
-## Now enjoy your project~! :)
+## Now enjoy your project~! ^_^
 
 
 
