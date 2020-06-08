@@ -1,3 +1,5 @@
+#define timeSeconds 10
+
 // Set GPIOs for LED and PIR Motion Sensor
 const int led = 26;
 const int motionSensor = 27;
