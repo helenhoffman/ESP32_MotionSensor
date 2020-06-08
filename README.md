@@ -12,8 +12,21 @@ Detect Movement with ESP32 WROOM 32D + PIR Motion Sensor HC-SR501
 6. Several jumper wires
 
 ## Hardware connection
+<img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/connections.png" width="800">
 
-<img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/breadboard.jpg" width="500">
+## Download Arduino IDE and install dependencies
+Download Arduino IDE. Click Arduino->Preferences->Additional Boards Manager URLs, input the following url
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_dev_index.json
+Then click OK.
+ARDUINO: https://www.arduino.cc/en/Main/Software
+<img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/software.png" width="600">
+
+Go to Tools->Board->Boards Manager, search for: ESP32, and install. 
+<img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/software_install.png" width="600">
+
+After installation, you can see
+<img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/Software_esp32.png" width="600">
+
 
 ## Acknowledgement & Reference
 1. Thanks to my boss OYD sponsored my a ESPRESSIF ESP32-WROOM-32D development kit earlier this year. I used this board and a Motion Sensor created this project. 
