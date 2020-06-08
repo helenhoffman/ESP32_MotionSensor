@@ -20,28 +20,28 @@ https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32
 Then click OK.
 
 ARDUINO: https://www.arduino.cc/en/Main/Software
-<img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/software.png" width="600">
+<img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/software.png" width="400">
 
 
 Go to Tools->Board->Boards Manager, search for: ESP32, and install. 
 
-<img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/software_install.png" width="600">
+<img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/software_install.png" width="400">
 
 
 After installation, you can see.
 
-<img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/Software_esp32.png" width="600">
+<img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/Software_esp32.png" width="400">
 
 
 Choose the correct board, here my case is:
 
-<img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/choose_board_name.png" width="600">
+<img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/choose_board_name.png" width="400">
 
 Go to port, choose USBtoUART. If you don't see this port, go to the following link to install:
 
 https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
 
-<img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/port.png" width="600">
+<img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/port.png" width="400">
 
 ## Start Programming
 You can copy & paste code from file MotionDetectionESP32.ino
