@@ -1,7 +1,7 @@
 # ESP32_MotionSensor
 Detect Movement with ESP32 WROOM 32D + PIR Motion Sensor HC-SR501
 
-![Demo(https://github.com/helenhoffman/ESP32_MotionSensor/Pic/Demo.gif)
+![Demo](https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/Demo.gif)
 
 
 
