@@ -18,14 +18,27 @@ Detect Movement with ESP32 WROOM 32D + PIR Motion Sensor HC-SR501
 Download Arduino IDE. Click Arduino->Preferences->Additional Boards Manager URLs, input the following url
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_dev_index.json
 Then click OK.
+
 ARDUINO: https://www.arduino.cc/en/Main/Software
 <img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/software.png" width="600">
 
+
 Go to Tools->Board->Boards Manager, search for: ESP32, and install. 
+
 <img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/software_install.png" width="600">
 
-After installation, you can see
+
+After installation, you can see.
+
 <img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/Software_esp32.png" width="600">
+
+
+Choose the correct board, here my case is:
+<img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/choose_board_name.png" width="600">
+
+Go to port, choose USBtoUART. If you don't see this port, go to the following link to install: https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
+
+<img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/port.png" width="600">
 
 
 ## Acknowledgement & Reference
