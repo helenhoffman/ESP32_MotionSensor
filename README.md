@@ -48,22 +48,32 @@ https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vc
 You can copy & paste code from file MotionDetectionESP32.ino
 
 There are some values you can change in the code to meet you specific requirement.
-For the first two lines, you don't have to use GPIO 26 or 27. Use the ones you actually connected. But it only limited to the number pins, like 34, 35, 32... Pins like GND, 3V3 are already be asigned with special functions.
+For the 4-5 lines, you don't have to use GPIO 26 or 27. Use the ones you actually connected. But it only limited to the number pins, like 34, 35, 32... Pins like GND, 3V3 are already be asigned with special functions.
 ```
 const int led = 26;
 const int motionSensor = 27;
 ```
 
-Line 21, be sure to match the port number with the Serial.begin()
+Line 23, be sure to match the port number with the Serial.begin()
 ```
 void setup() {
   Serial.begin(230400);
 ```
 
-For Line 37, timeSecond * 100 means the LED will be ON for 1 second. timeSecond * 1000 means 10 seconds.
+For Line 39, timeSecond * 100 means the LED will be ON for 1 second. timeSecond * 1000 means 10 seconds.
 ```
 if(startTimer && (now - lastTrigger > (timeSeconds*100))) {
 ```
+
+Press Upload button
+
+<img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/upload.png" width="400">
+
+When uploading done, you can see the detail compiling progress. When you see "Leaving...Hard resetting via RTS pin...", you can click Serial Monitor button, and your motion detection log is running!
+
+<img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/Monitor.png" width="400">
+
+
 
 ## Acknowledgement & Reference
 1. Thanks to my boss OYD sponsored my a ESPRESSIF ESP32-WROOM-32D development kit earlier this year. I used this board and a Motion Sensor created this project. 
