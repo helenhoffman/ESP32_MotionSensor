@@ -20,6 +20,7 @@ https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32
 Then click OK.
 
 ARDUINO: https://www.arduino.cc/en/Main/Software
+
 <img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/software.png" width="400">
 
 
