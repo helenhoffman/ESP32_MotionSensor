@@ -34,7 +34,7 @@ After installation, you can see.
 <img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/Software_esp32.png" width="400">
 
 
-Choose the correct board, here my case is:
+Choose the correct board, here my case is DOIT ESP32 DEVKIT V1
 
 <img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/choose_board_name.png" width="400">
 
