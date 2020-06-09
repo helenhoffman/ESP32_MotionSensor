@@ -1,7 +1,7 @@
 # ESP32_MotionSensor
 Detect Movement with ESP32 WROOM 32D + PIR Motion Sensor HC-SR501
 
-When you go out for working, or go to sleep at night, how do you know there aren't any unweldome guests break into your room, for example, a birt, or a cat, or E.T.? The goal of this project is to note if a movement is detected, and the exact time of the event. You can add more add-in functions or more sensors on this project. 
+When you go out for working, or go to sleep at night, how do you know there aren't any unwelcome guests break into your room, for example, a birt, or a cat, or E.T.? The goal of this project is to note if a movement is detected, and the exact time of the event. You can add more add-in functions or more sensors on this project. 
 
 The total cost for this project is less than $15. A ESP32 is usually $5-8, RIP Motion Sensor is $2, other materials <$1. You can finish this tutorial in about 20 minutes.
 
