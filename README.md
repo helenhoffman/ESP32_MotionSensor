@@ -59,6 +59,8 @@ Line 23, be sure to match the port number with the Serial.begin()
 void setup() {
   Serial.begin(230400);
 ```
+<img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/3_ports.png" width="400">
+
 
 For Line 39, timeSecond * 100 means the LED will be ON for 1 second. timeSecond * 1000 means 10 seconds.
 ```
