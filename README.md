@@ -62,6 +62,7 @@ void setup() {
 <img src="https://github.com/helenhoffman/ESP32_MotionSensor/blob/master/pic/3_ports.png" width="400">
 
 
+
 For Line 39, timeSecond * 100 means the LED will be ON for 1 second. timeSecond * 1000 means 10 seconds.
 ```
 if(startTimer && (now - lastTrigger > (timeSeconds*100))) {
