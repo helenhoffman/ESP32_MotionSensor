@@ -85,7 +85,7 @@ When uploading done, you can see the detail compiling progress. When you see "Le
 
 
 ## Acknowledgement & Reference
-1. Thanks to my boss OYD sponsored my a ESPRESSIF ESP32-WROOM-32D development kit earlier this year. I used this board and a Motion Sensor created this project. 
+1. Thanks to my boss Ouyang Dong sponsored my a ESPRESSIF ESP32-WROOM-32D development kit earlier this year. I used this board and a Motion Sensor created this project. 
 2. Thanks to Dinesh for checking and correcting my GPIO connections.
 3. I referenced the following pages and materials for programming:
 
